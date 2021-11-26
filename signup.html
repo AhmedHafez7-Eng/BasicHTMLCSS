@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Images/icons/logo-icon.png"> <!-- To make icon in title -->
+    <title>SignUp</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .btn {
+            text-decoration: none;
+            border: none;
+            background-color: rgb(226, 166, 0);
+            padding: 15px 30px;
+            text-transform: uppercase;
+            display: inline-block;
+            margin-top: 25px;
+            color: #FFF;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .signup {
+            background:
+                linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+                url('./Images/about-img.jpg') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            padding: 20px 100px;
+        }
+
+        .signup .formBx {
+            background-color: rgba(126, 121, 121, 0.2);
+            width: 45%;
+            padding: 55px 50px;
+            border: thin solid rgb(95, 95, 95);
+            margin-top: 10px;
+            margin: 10px auto;
+        }
+
+        .signup .formBx h2 {
+            text-transform: capitalize;
+            font-size: 20px;
+            color: #FFF;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .signup .formBx input[type="text"],
+        .signup .formBx input[type="password"],
+        .signup .formBx input[type="number"],
+        .signup .formBx input[type="email"] {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px 15px;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            border: none;
+        }
+
+        .signup .formBx label {
+            color: #FFF;
+        }
+
+        .signup .formBx .btn {
+            margin: 20px auto 0;
+            border-radius: 3px;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            cursor: pointer;
+            display: block;
+        }
+
+        .signup .formBx a {
+            margin-top: 15px;
+            display: block;
+            font-size: 14px;
+            color: rgb(190, 190, 190);
+        }
+
+        .signup .formBx a:hover {
+            color: rgb(233, 233, 233);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signup">
+        <div class="formBx">
+            <h2>Create An Account!</h2>
+            <form action="welcome.html" method="post" autocomplete="off">
+                <input type="text" name="fullname" id="fullname" placeholder="Your name" autofocus required>
+                <input type="email" name="email" id="email" placeholder="Email address" required
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+                <input type="number" name="age" id="age" placeholder="Your Age" required>
+                <input type="text" name="address" id="address" placeholder="Your Address" required>
+                <input type="password" name="password" id="password" placeholder="Passowrd" required>
+                <input type="password" name="confpassword" id="confpassword" placeholder="Confirm Password" required>
+                <a href="login.html" target="_blank">Already have account? LogIn!</a>
+                <input type="submit" value="SignUp" class="btn">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

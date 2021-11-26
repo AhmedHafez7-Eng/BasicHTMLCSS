@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/icons/logo-icon.png"> <!-- To make icon in title -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Car Rentals</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#" target="_blank"><img src="images/logo.png" alt="Logo"></a>
+            </div>
+            <div class="navLinks">
+                <a href="index.html" target="_blank">Home</a>
+                <a href="aboutus.html" target="_blank">About</a>
+                <a href="cars.html" target="_blank">cars</a>
+                <a href="#" target="_blank">service</a>
+                <a href="#" target="_blank">team</a>
+                <a href="#" target="_blank">blog</a>
+                <a href="#" target="_blank">contact</a>
+                <a href="login.html" target="_blank">LogIn</a>
+                <a href="signup.html" target="_blank">SignUp</a>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <h4>the royal essence of journey</h4>
+                <h1>relaxed journey ever</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id mollitia cumque, consectetur qui et
+                    temporibus doloribus odio numquam ullam molestias!</p>
+                <a href="#" target="_blank" class="btn">rent car now</a>
+            </div>
+            <div class="formBx">
+                <h2>Book Your Car Today!</h2>
+                <form action="welcome.html" method="post" autocomplete="off">
+                    <select name="car" id="cars" required>
+                        <option value="-1">Select Your Car</option>
+                        <option value="1">Mercedes</option>
+                        <option value="2">Fiat</option>
+                        <option value="3">Lancer</option>
+                        <option value="4">Toyota</option>
+                        <option value="5">Chevrolet</option>
+                        <option value="6">Ferrari</option>
+                        <option value="7">Lambourgini</option>
+                    </select>
+
+                    <select name="pickuplist" id="pickuplist" required>
+                        <option value="-1">Pickup</option>
+                        <option value="1">Mercedes</option>
+                        <option value="2">Fiat</option>
+                        <option value="3">Lancer</option>
+                        <option value="4">Toyota</option>
+                    </select>
+                    <input type="datetime" name="pickup" id="pickup" placeholder="Date & Time">
+
+                    <select name="dropofflist" id="dropofflist" required>
+                        <option value="-1">Drop off</option>
+                        <option value="1">Mercedes</option>
+                        <option value="2">Fiat</option>
+                        <option value="3">Lancer</option>
+                        <option value="4">Toyota</option>
+                        <option value="5">Chevrolet</option>
+                    </select>
+                    <input type="datetime" name="dropoff" id="dropoff" placeholder="Date & Time" required>
+
+                    <input type="text" name="fullname" id="fullname" placeholder="Your name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" autofocus required
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+                    <input type="tel" name="phone" id="phone" placeholder="Phone number" min="11" max="11" required>
+                    <input type="submit" value="Confirm Car Booking" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="heading">
+        <h2>What Services we offer to our clients</h2>
+        <h4>who are in extremely love with eco friendly system</h4>
+    </div>
+
+    <!-- Services -->
+    <div class="services">
+        <div class="serItem nomargin">
+            <h2><img src="images/icons/ico1.jpg" alt="service1"> Expert Technicians</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error vero eveniet mollitia enim commodi
+                voluptate ipsa fugit molestiae architecto harum.</p>
+        </div>
+        <div class="serItem">
+            <h2><img src="images/icons/ico2.jpg" alt="service2"> Expert Technicians</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error vero eveniet mollitia enim commodi
+                voluptate ipsa fugit molestiae architecto harum.</p>
+        </div>
+        <div class="serItem">
+            <h2><img src="images/icons/ico3.jpg" alt="service3"> Expert Technicians</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error vero eveniet mollitia enim commodi
+                voluptate ipsa fugit molestiae architecto harum.</p>
+        </div>
+        <div class="serItem nomargin">
+            <h2><img src="images/icons/ico4.jpg" alt="service4"> Expert Technicians</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error vero eveniet mollitia enim commodi
+                voluptate ipsa fugit molestiae architecto harum.</p>
+        </div>
+        <div class="serItem">
+            <h2><img src="images/icons/ico5.jpg" alt="service5"> Expert Technicians</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error vero eveniet mollitia enim commodi
+                voluptate ipsa fugit molestiae architecto harum.</p>
+        </div>
+        <div class="serItem">
+            <h2><img src="images/icons/ico6.jpg" alt="service6"> Expert Technicians</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error vero eveniet mollitia enim commodi
+                voluptate ipsa fugit molestiae architecto harum.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <!-- Showcase -->
+    <div class="showcase">
+        <div class="imgBx">
+            <img src="images/about-img.jpg" alt="about-img">
+        </div>
+        <div class="textBx">
+            <h2>Globally Connected<br>by Large Network</h2>
+            <h4>We are here to listen fro you deliver exellence</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente velit neque quas. Obcaecati expedita
+                perspiciatis consectetur ipsum dolores labore laborum perferendis similique! Voluptatibus iusto porro
+                ullam tempora deleniti, pariatur est quam natus praesentium, sequi optio dolore amet. Omnis, quasi
+                earum?</p>
+            <a href="#" target="_blank" class="btn">Get Details</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="heading">
+        <h2>Choose your Desired Car Model</h2>
+        <h4>who are in extremely love with eco friendly system</h4>
+    </div>
+
+    <!-- Start Special Model -->
+    <div class="specialModel">
+        <div class="textBx">
+            <div class="headText">
+                <h4>Audi 3000 msi</h4>
+                <p class="price">$149<sub>/day</sub></p>
+                <div class="clear"></div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente velit neque quas. Obcaecati expedita
+                perspiciatis consectetur ipsum dolores labore laborum.</p>
+
+            <div class="specs">
+                <p>Capacity: 04 Person</p>
+                <p>Doors: 04</p>
+                <p>Air Condition: Dual Zone</p>
+                <p>Transmission: Automatic</p>
+            </div>
+
+            <a href="#" target="_blank" class="btn">Book This Car Now</a>
+        </div>
+        <div class="imgBx">
+            <img src="images/car.jpg" alt="special model">
+        </div>
+        <div class="clear"></div>
+        <div class="bullets">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Start Support -->
+    <div class="support">
+        <h2>Experience Great Support</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nesciunt aliquam sint sequi. Labore hic dolor
+            ipsam dolorem nulla placeat error iusto similique enim. Odit officiis fugiat labore eos aperiam.</p>
+        <a href="#" target="_blank" class="btn">reach our support team</a>
+    </div>
+
+    <div class="heading">
+        <h2>Latest From Our Blog</h2>
+        <h4 style="line-height: 1.5;padding: 0 250px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Obcaecati molestias eaque deleniti, blanditiis
+            corporis quas facere. Aliquid iste rerum illum.</h4>
+    </div>
+
+    <!-- Start Blogs -->
+    <div class="blogs">
+        <div class="post">
+            <img src="images/b1.jpg" alt="blog1">
+            <span class="date">10 Jan 2018</span>
+            <h3>Addection When Gambling<br>Becomes A Problem</h3>
+            <p>Inapproprite behaviour Lorem ipsum dolor sit amet.</p>
+            <span class="emoji"><img src="images/icons/like-ico.jpg" alt="like icon"> 15 Likes</span>
+            <span class="emoji"><img src="images/icons/comment-ico.jpg" alt="comment icon"> 02 Comments</span>
+        </div>
+        <div class="post">
+            <img src="images/b2.jpg" alt="blog2">
+            <span class="date">10 Jan 2018</span>
+            <h3>Addection When Gambling<br>Becomes A Problem</h3>
+            <p>Inapproprite behaviour Lorem ipsum dolor sit amet.</p>
+            <span class="emoji"><img src="images/icons/like-ico.jpg" alt="like icon"> 15 Likes</span>
+            <span class="emoji"><img src="images/icons/comment-ico.jpg" alt="comment icon"> 02 Comments</span>
+        </div>
+        <div class="post">
+            <img src="images/b3.jpg" alt="blog3">
+            <span class="date">10 Jan 2018</span>
+            <h3>Addection When Gambling<br>Becomes A Problem</h3>
+            <p>Inapproprite behaviour Lorem ipsum dolor sit amet.</p>
+            <span class="emoji"><img src="images/icons/like-ico.jpg" alt="like icon"> 15 Likes</span>
+            <span class="emoji"><img src="images/icons/comment-ico.jpg" alt="comment icon"> 02 Comments</span>
+        </div>
+        <div class="post">
+            <img src="images/b4.jpg" alt="blog4">
+            <span class="date">10 Jan 2018</span>
+            <h3>Addection When Gambling<br>Becomes A Problem</h3>
+            <p>Inapproprite behaviour Lorem ipsum dolor sit amet.</p>
+            <span class="emoji"><img src="images/icons/like-ico.jpg" alt="like icon"> 15 Likes</span>
+            <span class="emoji"><img src="images/icons/comment-ico.jpg" alt="comment icon"> 02 Comments</span>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="linkItem">
+            <h4>Quick Links</h4>
+            <a href="#" target="_blank">Jobs</a>
+            <a href="#" target="_blank">Brand Assets</a>
+            <a href="#" target="_blank">Investor Relations</a>
+            <a href="#" target="_blank">Terms of Service</a>
+        </div>
+        <div class="linkItem">
+            <h4>Features</h4>
+            <a href="#" target="_blank">Jobs</a>
+            <a href="#" target="_blank">Brand Assets</a>
+            <a href="#" target="_blank">Investor Relations</a>
+            <a href="#" target="_blank">Terms of Service</a>
+        </div>
+        <div class="linkItem">
+            <h4>Resources</h4>
+            <a href="#" target="_blank">Jobs</a>
+            <a href="#" target="_blank">Brand Assets</a>
+            <a href="#" target="_blank">Investor Relations</a>
+            <a href="#" target="_blank">Terms of Service</a>
+        </div>
+        <div class="linkItem">
+            <h4>Follow Us</h4>
+            <p>Let us be social</p>
+            <a href="https://www.facebook.com/profile.php?id=100005116839262" target="_blank" class="footsocial"><img
+                    src="images/icons/social-1.jpg" alt="Facebook"></a>
+            <a href="https://twitter.com/AhmedHa77264814" target="_blank" class="footsocial"><img
+                    src="images/icons/social-2.jpg" alt="Twitter"></a>
+            <a href="https://ahmedhafezoffic.netlify.app/" target="_blank" class="footsocial"><img
+                    src="images/icons/social-3.jpg" alt="Website"></a>
+            <a href="https://www.behance.net/ahmedhafez12" target="_blank" class="footsocial"><img
+                    src="images/icons/social-4.jpg" alt="Behance"></a>
+        </div>
+        <div class="linkItem">
+            <h4>Newsletter</h4>
+            <p>Stay update with our latest</p>
+            <div class="search">
+                <input type="email" name="email" id="emailaddress" placeholder="Enter Email">
+                <a href="mailto:ahmed.hafez101112131415@gmail.com" target="_blank" class="arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <p class="copyright">Copyright &copy; 2021 All rights reserved.</p>
+    </div>
+</body>
+
+</html>
